@@ -6,7 +6,7 @@ import java.util.Scanner; // Import the Scanner class to read text files
 
 public class Main {
 	public static int ifworking(String url,int[] arr) {
-	    url = url.replaceFirst("http", "https"); // Otherwise an exception may
+	    //url = url.replaceFirst("http", "https"); // Otherwise an exception may
 	                                             // be thrown on invalid SSL
 	                                             // certificates.
 	    try {
